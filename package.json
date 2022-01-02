@@ -7,7 +7,10 @@
     "start": "node src/index.mjs",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install",
-    "commit": "cz"
+    "commit": "cz",
+    "build": "tsc --build",
+    "clean": "tsc --build --clean",
+    "dev:server": "tsnd --respawn --transpile-only src/index.ts"
   },
   "author": "Thomas Couto",
   "license": "ISC",
@@ -21,7 +24,9 @@
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.6.0",
     "husky": "^7.0.4",
-    "lint-staged": "^12.1.4"
+    "lint-staged": "^12.1.4",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.5.4"
   },
   "config": {
     "commitizen": {
