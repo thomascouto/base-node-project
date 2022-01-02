@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-This is a base node project that use in my back-end applications.
+This is a base node project used in my back-end applications.
 
 ## Packages used:
 - [commitlint](https://www.npmjs.com/package/commitlint)
@@ -12,3 +12,4 @@ This is a base node project that use in my back-end applications.
 - [lint-staged](https://www.npmjs.com/package/lint-staged)
 - [ts-node](https://www.npmjs.com/package/ts-node)
 - [typescript](https://www.npmjs.com/package/typescript)
+- [jest](https://www.npmjs.com/package/jest)
