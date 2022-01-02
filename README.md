@@ -1,4 +1,8 @@
-# My blank NODE.JS Project
+# Blank NODE.JS Project
+
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+
+This is a base node project that use in my back-end applications.
 
 ## Packages used:
 - [commitlint](https://www.npmjs.com/package/commitlint)
