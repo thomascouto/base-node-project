@@ -10,7 +10,8 @@
     "commit": "cz",
     "build": "tsc --build",
     "clean": "tsc --build --clean",
-    "dev:server": "tsnd --respawn --transpile-only src/index.ts"
+    "dev:server": "tsnd --respawn --transpile-only src/index.ts",
+    "lint": "eslint . --ext .ts,.js,.mjs"
   },
   "author": "Thomas Couto",
   "license": "ISC",
