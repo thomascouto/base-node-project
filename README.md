@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-This is a base node project used in my back-end applications.
+This is a base node project used in my back-end applications. This base app is being updated from time to time! Enjoy 😎
 
 ## Packages used:
 - [commitlint](https://www.npmjs.com/package/commitlint)
