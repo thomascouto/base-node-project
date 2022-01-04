@@ -5,7 +5,9 @@
   "main": "src/index.mjs",
   "scripts": {
     "start": "node src/index.mjs",
-    "test": "jest --watch --passWithNoTests",
+    "test": "jest --passWithNoTest --runInBand --no-cache",
+    "test:staged": "npm test -- --findRelatedTests",
+    "test:ci": "npm test -- --coverage",
     "prepare": "husky install",
     "commit": "cz",
     "build": "tsc --build",
