@@ -18,6 +18,13 @@
         "@typescript-eslint"
     ],
     "rules": {
+        "no-multiple-empty-lines":"warn",
+        "no-multi-spaces":"error",
+        "no-extra-parens": "error",
+        "camelcase": "error",
+        "object-curly-spacing": "error",
+        "array-bracket-spacing": "error",
+        "space-in-parens": "error",
         "indent": [
             "error",
             "tab"
