@@ -1,0 +1,9 @@
+{
+    "workbench.editor.enablePreview": false,
+    "files.eol": "\r\n",
+    "files.autoSave": "onFocusChange",
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "Fira Code, Courier New",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,   
+}
